@@ -1,21 +1,108 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MEN7</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MEN7</title>
 
-  <style>
-    body {
-  <section class="hero">
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;
+  background:
+    radial-gradient(circle at 85% 20%,rgba(125,0,25,.55),transparent 28%),
+    radial-gradient(circle at 10% 45%,rgba(0,160,255,.20),transparent 30%),
+    #050505;
+  color:white;
+  font-family:Arial,sans-serif;
+}
+.hero{
+  min-height:100vh;
+  padding:32px 24px 60px;
+  max-width:700px;
+  margin:auto;
+}
+.logo{
+  font-size:30px;
+  font-weight:900;
+}
+.logo span{color:#29c7ff}
+.tag{
+  display:inline-block;
+  margin-top:45px;
+  padding:9px 14px;
+  border:1px solid rgba(41,199,255,.4);
+  border-radius:30px;
+  color:#29c7ff;
+  font-size:12px;
+  letter-spacing:1px;
+}
+h1{
+  font-size:60px;
+  line-height:.9;
+  letter-spacing:-4px;
+  margin:25px 0 0;
+}
+.red{color:#e11b36}
+.lead{
+  color:#b6b6bd;
+  font-size:17px;
+  line-height:1.65;
+  margin-top:25px;
+}
+.buttons{
+  display:grid;
+  gap:12px;
+  margin-top:28px;
+}
+.btn{
+  padding:16px;
+  text-align:center;
+  border-radius:10px;
+  font-weight:bold;
+  text-decoration:none;
+}
+.primary{
+  background:#29c7ff;
+  color:#00151d;
+}
+.secondary{
+  background:#101014;
+  color:white;
+  border:1px solid #37373d;
+}
+.model{
+  height:390px;
+  margin-top:45px;
+  padding:25px;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-end;
+  border-radius:24px;
+  border:1px solid rgba(255,255,255,.14);
+  background:
+    radial-gradient(circle at 70% 28%,rgba(210,15,45,.55),transparent 30%),
+    radial-gradient(circle at 25% 70%,rgba(41,199,255,.25),transparent 35%),
+    linear-gradient(160deg,#242126,#080808 70%);
+}
+.model small{
+  color:#29c7ff;
+  letter-spacing:2px;
+}
+.model strong{
+  font-size:34px;
+  margin-top:8px;
+}
+.model span{color:#999}
+</style>
+</head>
 
-  <div class="logo">
-    MEN<span>7</span>
-  </div>
+<body>
+<section class="hero">
 
-  <div class="tag">
-    PRIVATE · VERIFIED · 18+
-  </div>
+  <div class="logo">MEN<span>7</span></div>
+
+  <div class="tag">PRIVATE · VERIFIED · 18+</div>
 
   <h1>
     HOMBRES<br>
@@ -24,126 +111,21 @@
   </h1>
 
   <p class="lead">
-    Descubre creadores masculinos reales, contenido exclusivo
-    y una experiencia privada diseñada para adultos.
+    Descubre creadores masculinos, contenido exclusivo y una
+    experiencia privada diseñada para adultos.
   </p>
 
   <div class="buttons">
-    <a href="#" class="btn primary">Explorar creadores</a>
-    <a href="#" class="btn secondary">Ser creador</a>
+    <a class="btn primary" href="#">Explorar creadores</a>
+    <a class="btn secondary" href="#">Ser creador</a>
   </div>
 
-  <div style="
-    margin-top:45px;
-    height:360px;
-    border-radius:24px;
-    border:1px solid rgba(255,255,255,.14);
-    background:
-      radial-gradient(circle at 70% 35%, rgba(210,15,45,.45), transparent 35%),
-      radial-gradient(circle at 25% 70%, rgba(38,198,255,.25), transparent 35%),
-      linear-gradient(160deg,#18181c,#080808);
-    display:flex;
-    flex-direction:column;
-    justify-content:flex-end;
-    padding:25px;
-  ">
-
-    <small style="color:#26c6ff; letter-spacing:2px;">
-      FEATURED CREATOR · VERIFIED
-    </small>
-
-    <strong style="font-size:32px; margin-top:8px;">
-      ALEX
-    </strong>
-
-    <span style="color:#999; margin-top:5px;">
-      Lifestyle · Premium
-    </span>
-
+  <div class="model">
+    <small>FEATURED CREATOR · VERIFIED</small>
+    <strong>ALEX</strong>
+    <span>Lifestyle · Premium</span>
   </div>
 
 </section>
-
 </body>
 </html>
-      margin: 0;
-      background: #050505;
-      color: white;
-      font-family: Arial, Helvetica, sans-serif;
-    }
-
-    .hero {
-      min-height: 100vh;
-      padding: 30px 24px 60px;
-      background:
-        radial-gradient(circle at 85% 20%, rgba(115,0,24,.45), transparent 28%),
-        radial-gradient(circle at 10% 35%, rgba(0,140,255,.18), transparent 30%),
-        #050505;
-    }
-
-    .logo {
-      font-size: 30px;
-      font-weight: 900;
-      letter-spacing: 1px;
-    }
-
-    .logo span {
-      color: #26c6ff;
-    }
-
-    .tag {
-      display: inline-block;
-      margin-top: 45px;
-      padding: 9px 14px;
-      border: 1px solid rgba(38,198,255,.35);
-      border-radius: 30px;
-      color: #26c6ff;
-      font-size: 12px;
-      letter-spacing: 1px;
-    }
-
-    h1 {
-      font-size: 58px;
-      line-height: .92;
-      margin: 22px 0 0;
-      letter-spacing: -3px;
-    }
-
-    h1 .red {
-      color: #e31334;
-    }
-
-    .lead {
-      color: #b0b0b8;
-      font-size: 17px;
-      line-height: 1.6;
-      margin-top: 24px;
-    }
-
-    .buttons {
-      display: grid;
-      gap: 12px;
-      margin-top: 28px;
-    }
-
-    .btn {
-      padding: 16px;
-      border-radius: 10px;
-      text-align: center;
-      text-decoration: none;
-      font-weight: 800;
-    }
-
-    .primary {
-      background: #26c6ff;
-      color: #001018;
-    }
-
-    .secondary {
-      border: 1px solid #34343a;
-      color: white;
-      background: #101014;
-    }
-  </style>
-</head>
-<body>
